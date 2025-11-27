@@ -1,0 +1,1 @@
+$env.PROMPT_INDICATOR = {|| "" }

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "user": "neo",
+    "level": "admin",
+    "login_count": 42,
+    "active": true
+  },
+  {
+    "id": 2,
+    "user": "trinity",
+    "level": "admin",
+    "login_count": 38,
+    "active": true
+  },
+  {
+    "id": 3,
+    "user": "morpheus",
+    "level": "moderator",
+    "login_count": 15,
+    "active": false
+  },
+  {
+    "id": 4,
+    "user": "cypher",
+    "level": "user",
+    "login_count": 2,
+    "active": true
+  },
+  {
+    "id": 5,
+    "user": "tank",
+    "level": "operator",
+    "login_count": 10,
+    "active": true
+  }
+]
