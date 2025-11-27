@@ -5,7 +5,7 @@
 export-env { $env.STARSHIP_SHELL = "nu"; load-env {
     STARSHIP_SESSION_KEY: (random chars -l 16)
     PROMPT_MULTILINE_INDICATOR: (
-        ^/nix/store/rpcz0blydcyqmji56c82mvkh9jkk51bb-starship-1.24.0/bin/starship prompt --continuation
+        ^/nix/store/gv1kzwpcbg9ng3d4p2gnv9sia8ldsp0n-starship-1.24.1/bin/starship prompt --continuation
     )
 
     # Does not play well with default character module.
@@ -17,7 +17,7 @@ export-env { $env.STARSHIP_SHELL = "nu"; load-env {
             # The initial value of `$env.CMD_DURATION_MS` is always `0823`, which is an official setting.
             # See https://github.com/nushell/nushell/discussions/6402#discussioncomment-3466687.
             let cmd_duration = if $env.CMD_DURATION_MS == "0823" { 0 } else { $env.CMD_DURATION_MS };
-            ^/nix/store/rpcz0blydcyqmji56c82mvkh9jkk51bb-starship-1.24.0/bin/starship prompt
+            ^/nix/store/gv1kzwpcbg9ng3d4p2gnv9sia8ldsp0n-starship-1.24.1/bin/starship prompt
                 --cmd-duration $cmd_duration
                 $"--status=($env.LAST_EXIT_CODE)"
                 --terminal-width (term size).columns
@@ -40,7 +40,7 @@ export-env { $env.STARSHIP_SHELL = "nu"; load-env {
             # The initial value of `$env.CMD_DURATION_MS` is always `0823`, which is an official setting.
             # See https://github.com/nushell/nushell/discussions/6402#discussioncomment-3466687.
             let cmd_duration = if $env.CMD_DURATION_MS == "0823" { 0 } else { $env.CMD_DURATION_MS };
-            ^/nix/store/rpcz0blydcyqmji56c82mvkh9jkk51bb-starship-1.24.0/bin/starship prompt
+            ^/nix/store/gv1kzwpcbg9ng3d4p2gnv9sia8ldsp0n-starship-1.24.1/bin/starship prompt
                 --right
                 --cmd-duration $cmd_duration
                 $"--status=($env.LAST_EXIT_CODE)"

@@ -1,8 +1,10 @@
 
 [character]
-success_symbol = "[🦀 NU_LAB ➜](bold green)"
-error_symbol = "[💀 NU_LAB ➜](bold red)"
+success_symbol = "[🦀 FLAKE ➜](bold green)"
+error_symbol = "[💀 FLAKE ➜](bold red)"
 [directory]
 truncation_length = 3
 style = "bold yellow"
+[nodejs]
+symbol = "⬢ "
 
