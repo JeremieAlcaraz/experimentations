@@ -1,7 +1,7 @@
 
 [character]
-success_symbol = "[🦀 FLAKE ➜](bold green)"
-error_symbol = "[💀 FLAKE ➜](bold red)"
+success_symbol = "[🚀 DX ➜](bold green)"
+error_symbol = "[💀 DX ➜](bold red)"
 [directory]
 truncation_length = 3
 style = "bold yellow"

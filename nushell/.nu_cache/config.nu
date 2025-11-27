@@ -4,6 +4,5 @@
   alias cat = bat --style=plain
   alias vim = nvim -u '/Users/jeremiealcaraz/src/tries/2025-11-27-experimentations/nushell/.nu_cache/init.vim'
   
-  $env.config.show_banner = false
-  print '✅ Environnement Flake Chargé !'
+  print '🔧 Base DX chargée !'
 
